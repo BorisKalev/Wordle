@@ -1,0 +1,29 @@
+.cube{
+    border: 2px solid black;
+    width: 55px;
+    height: 55px;
+    font-size: 1.7rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct{
+    background-color: lightgreen;
+}
+
+.close{
+    background-color: rgb(224, 224, 55)
+}
+
+.incorrect{
+    background-color: gray;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}

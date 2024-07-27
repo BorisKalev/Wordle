@@ -1,0 +1,57 @@
+/* CustomKeyboard.css */
+.simple-keyboard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hg-row{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .simple-keyboard .hg-button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  .simple-keyboard .hg-button:hover {
+    background-color: #cecece;
+  }
+  
+  .simple-keyboard .hg-button:active {
+    background-color: #999;
+  }
+  
+  .simple-keyboard .hg-row:nth-of-type(4) .hg-button:nth-of-type(1) {
+    background-color: rgb(252, 112, 112);
+    font-family:monospace;
+  }
+  
+  .simple-keyboard .hg-row:nth-of-type(4) .hg-button:nth-of-type(2) {
+    background-color: rgb(22, 155, 22);
+    font-family:monospace;
+  }
+  
+  .correct {
+    background-color: lightgreen;
+  }
+  
+  .close {
+    background-color: rgb(224, 224, 55);
+  }
+  
+  .incorrect {
+    background-color: gray;
+  }
+  
